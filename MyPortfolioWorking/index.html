@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a73e6b25dd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!--------- Home --------->
+
+    <div id="header">
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="header">
+            <p>Web Developer.</p>
+            <h1>Hi! I Am <span style="color: brown;">Avinash Kirkat</span> From Pune.</h1>
+        </div>
+    </div>
+
+<!-------- About---------->
+
+    <div id="about">
+        <div>
+            <div class="row">
+                <div class="col-1">
+                    <img src="images/WhatsApp Image 2024-03-17 at 3.42.28 PM.jpeg">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Sequi fuga omnis excepturi eum tempora,
+                        cupiditate, delectus eaque voluptate aliquid itaque fugiat. 
+                        Excepturi aliquam fuga sint
+                        temporibus in facilis dolore eos.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX :</span><br> Designing Web/App Interface</li>
+                            <li><span> Web Development :</span><br> Web App Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br> HSC from Maharastra State Board</li>
+                            <li><span>2022</span><br> BE From SPPU</li>
+                            <li><span>2023-2024</span><br> Front-End-Development Cource</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------- services ----------->
+
+    <div id="services">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, corrupti quae provident qui nihil ab id non quidem labore, nulla ut ex aperiam. Reprehenderit eius unde repellat aut at tempore.</p>
+                <a></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, corrupti quae provident qui nihil ab id non quidem labore, nulla ut ex aperiam. Reprehenderit eius unde repellat aut at tempore.</p>
+                <a></a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, corrupti quae provident qui nihil ab id non quidem labore, nulla ut ex aperiam. Reprehenderit eius unde repellat aut at tempore.</p>
+                <a></a>
+            </div>
+        </div>
+    </div>
+
+<!--------- Portfolio ----------->
+
+   <div id="Portfolio">
+        <div class="container">
+            <h2 style="margin-left: 35px; font-size: 45px;">My Work</h2>
+            <div class="work-list">
+                <div class="work">
+                     <img src="images/img4.jpg">
+                     <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur orem? Et, repudiandae commodi. Quia provident nostrum consequatur optio?</p>
+                        <a href="#" style="font-size: 20px;"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div> 
+                 <div class="work">
+                     <img src="images/img2.jpg">
+                     <div class="layer">
+                        <h3>Web App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur orem? Et, repudiandae commodi. Quia provident nostrum consequatur optio?</p>
+                        <a href="#" style="font-size: 20px;"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div> 
+                <div class="work">
+                     <img src="images/img3.jpg">
+                     <div class="layer">
+                        <h3>Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur orem? Et, repudiandae commodi. Quia provident nostrum consequatur optio?</p>
+                        <a href="#" style="font-size: 20px;"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+   </div>
+
+<!-------------- Contact --------------->
+
+<div id="contact">
+    <div class="row">
+     <div class="contact-left">
+        <h1>Contact Me</h1>
+        <p> <i class="fa-solid fa-envelope"></i> avinashkirkat@gmail.com</p>
+        <p> <i class="fa-solid fa-phone"></i> 8575448514</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+         </div>
+         <a href="images/Frontend_Devloper_Trainee_Avinash Kirkat-CV.pdf" download class="btn">Download CV</a>
+     </div>
+    </div>
+
+    <div class="copyright">
+
+        <p>Copyright @ Avinash. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials </p>
+
+    </div>
+</div>
+
+
+<!---------- JavaScript ---------->
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+</body>
+
+</html>
